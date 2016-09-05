@@ -10,14 +10,14 @@ def read(fname):
 	
 setup(
     name='container_decrypter',
-    version='1.1',
+    version='1.2',
     packages=['container_decrypter'],
     url='https://github.com/dennisfischer/container_decrypter',
     license='MIT',
     author='Dennis Fischer',
     author_email='dennis.fischer@live.com',
     description='A library for decrypting JDownloader container formats. Currently it supports only DLC files. ',
-	requires=[
+	install_requires=[
 		"requests"
 	],
 	test_suite="tests",
