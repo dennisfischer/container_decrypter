@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='container_decrypter',
-    version='1.3',
+    version='1.4',
     packages=['container_decrypter'],
     url='https://github.com/dennisfischer/container_decrypter',
     license='MIT',
@@ -11,7 +11,8 @@ setup(
     author_email='dennis.fischer@live.com',
     description='A library for decrypting JDownloader container formats. Currently it supports only DLC files. ',
 	install_requires=[
-		"requests"
+		"requests",
+		"pycrypto"
 	],
 	test_suite="tests",
     classifiers=[
